@@ -7,7 +7,7 @@ const app = express()
 app.use(cors())
 app.use(express.json())
 
-mongoose.connect("mongodb+srv://mongodbacc10:38312132sS@cluster0.oml4jek.mongodb.net/")
+mongoose.connect("mongoconnection")
 .then(
     res => console.log("database connected")
 )
